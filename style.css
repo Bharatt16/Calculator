@@ -9,7 +9,9 @@ body{
     display : flex;
     flex-direction: column;
     align-items : center;
-    background-color: #E9DFC3;
+    /* background-color: #E9DFC3; */
+    background: #2A7B9B;
+background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
 }
 
 h1{
@@ -64,13 +66,15 @@ h1{
 .clear:hover , .delete:hover{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
     transform: scale(1.03);
+    cursor : pointer;
+
 }
 
 .clear{
-    background-color: #E78B48;
+    background-color: #BE3D2A;
 }
 .delete{
-    background-color: #BE3D2A;
+    background-color: #E78B48;
 }
 
 .buttons{
@@ -94,6 +98,7 @@ h1{
     align-items : center;
     font-size: 27px;
     transition : all 0.3s ease;
+    cursor : pointer;
 }
 .boxes:hover{
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
